@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="ISO-8859-1">
-  <title>A web controlled led</title>
+  <title>Control System</title>
   <link rel="stylesheet" media="screen" href="/main.css">
   <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css">
 
@@ -43,8 +43,15 @@
         <form action="/control" method="POST">
           <button name="state" value="on">On</button>
         </form>
+        
+        <h4>Leave a mesage on the LCD (generates a 400 Bad Request error)</h4>
+         <form action="/control" method="POST">
+				    <div class="field">
+				      <label> Message: </label>
+				      <input type="text" name="message">
 
       </div>
+       <button class="ui blue submit button">Submit</button>
 
       
 
