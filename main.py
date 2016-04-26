@@ -64,5 +64,24 @@ def route3():
   if (request.form['state']) == 'off':
     digitalWrite(grove+4, 0)    
   return render_template ('/form.html', lcd=lcd)
+  
+@app.route ("/control", methods=['POST'])
+def route4():
+  if (request.form['state']) == 'message':
+    lcd2.write(str(message))
+  return render_template ('/form.html', lcd=lcd)
+  
+  
  
 app.run (host='0.0.0.0')
+
+
+
+
+
+
+
+
+
+
+
