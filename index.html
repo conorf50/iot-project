@@ -1,60 +1,67 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Iot-project by conorf50</title>
+    <meta name="description" content="Iot-project : An Internet Of Things based project">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Iot-project</title>
   </head>
+
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Iot-project</h1>
-        <p>An Internet Of Things based project</p>
 
-        <p class="view"><a href="https://github.com/conorf50/iot-project">View the Project on GitHub <small>conorf50/iot-project</small></a></p>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/conorf50/iot-project">View on GitHub</a>
 
+          <h1 id="project_title">Iot-project</h1>
+          <h2 id="project_tagline">An Internet Of Things based project</h2>
 
-        <ul>
-          <li><a href="https://github.com/conorf50/iot-project/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/conorf50/iot-project/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/conorf50/iot-project">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/conorf50/iot-project/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/conorf50/iot-project/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
         <h1>
-<a id="iot-project" class="anchor" href="#iot-project" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>iot-project</h1>
-
-<p>An Internet Of Things based project</p>
-
-<h1>
-<a id="project-name" class="anchor" href="#project-name" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Project Name</h1>
+<a id="webled" class="anchor" href="#webled" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>WebLED</h1>
 
 <h4>
-<a id="student-name--conor-farrell---student-id-20071238" class="anchor" href="#student-name--conor-farrell---student-id-20071238" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Student Name:  Conor Farrell   Student ID: 20071238</h4>
+<a id="student-name--conor-farrell" class="anchor" href="#student-name--conor-farrell" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Student Name:  Conor Farrell</h4>
 
-<p>Project Description (subject to change):
-The project is a simple home automation system. The idea is to sense a user using either a mobile phone an ultrasonic sensor or some other method.
+<p>Original Concept:
+The project is a simple home automation system. The original idea was to sense a user using either a mobile phone an ultrasonic sensor or some other method. 
 Once a user has been identified, the system can turn on lights, play music etc.. An RGB LED may be used to provide a form od 'mood lighting' where the colour of the light can change depending on a number of factors based on the user's preferences.</p>
+
+<h4>
+<a id="what-happened-to-that" class="anchor" href="#what-happened-to-that" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What happened to that?</h4>
+
+<p>Due to technical difficulties with Wyliodrin, this was changed to a web API controlling a relay. Suppose it stil counts?</p>
 
 <h2>
 <a id="tools-technologies-and-equipment" class="anchor" href="#tools-technologies-and-equipment" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tools, Technologies and Equipment</h2>
 
-<p>The proposed system would consist of an Intel Galileo or Arduino connected to a Grove shield and maybe an ultrasonic sensor. The shield will provide sensing of light level in the room among other things. A Raspberry Pi could be used to offload some of the processing to speed up the system. I plan to have the Galileo run Wyliodrin in order to tie the system together. A light strip or RGB LED could be used to provide crude 
-mood lighting (this may be upgraded to a relay and mains powered lighting).</p>
+<p>The final system uses an Intel Galileo with the Grove shield and components. The system uses a Grove LCD and a relay to facilitate home automation. The Wyliodrin platform is used to tie the system together and also hosts a small web server on the Galileo to process requests.</p>
       </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/conorf50">conorf50</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Iot-project maintained by <a href="https://github.com/conorf50">conorf50</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+
     
+
   </body>
 </html>
