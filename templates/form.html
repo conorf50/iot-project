@@ -26,14 +26,27 @@
       <h4>Control a relay connected to D4 on the Grove shield.
       <div class="column one wide">
 
-        <form action="/led" method="POST">
+        <form action="/control" method="POST">
+          <button name="state" value="relayOff">Off</button>
+        </form>
+
+        <form action="/control" method="POST">
+          <button name="state" value="relayOn">On</button>
+        </form>
+
+      <h4> Control something else.</h4>
+
+        <form action="/control" method="POST">
           <button name="state" value="off">Off</button>
         </form>
 
-        <form action="/led" method="POST">
+        <form action="/control" method="POST">
           <button name="state" value="on">On</button>
         </form>
+
       </div>
+
+      
 
     </div>
   </div>
