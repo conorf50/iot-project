@@ -1,0 +1,16 @@
+# Wyliodrin makefile
+
+.PHONY: build run clean
+
+CWD				=	$(shell pwd)
+BUILD_TARGETS 	=	
+RUN_TARGETS 	=	
+
+build:$(BUILD_TARGETS)
+
+run: $(RUN_TARGETS)
+	python main.py
+
+clean:
+	
+

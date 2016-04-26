@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="ISO-8859-1">
+  <title>A web controlled led</title>
+  <link rel="stylesheet" media="screen" href="/main.css">
+  <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css">
+
+</head>
+<body>
+    <div class="ui very padded center aligned container">
+      <h1>                        </h1>
+            <h1>                        </h1>
+
+      <h1>                        </h1>
+
+      <h1>                        </h1>
+
+      <h1>                        </h1>
+
+      <h1>                        </h1>
+
+        </div>
+  <div class="ui padded center aligned container">
+    <section class="ui middle center aligned form segment" id= "background">
+      <h4>Control a relay connected to D4 on the Grove shield.
+      <div class="column one wide">
+
+        <form action="/led" method="POST">
+          <button name="state" value="off">Off</button>
+        </form>
+
+        <form action="/led" method="POST">
+          <button name="state" value="on">On</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
