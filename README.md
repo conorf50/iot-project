@@ -7,7 +7,7 @@ Once a user has been identified, the system can turn on lights, play music etc..
 
 
 ####What happened to that?
-Due to technical difficulties with Wyliodrin, this was changed to a web API controlling a relay. Suppose it stil counts?
+Due to technical difficulties with Wyliodrin, this was changed to a web API controlling a relay. Suppose it still counts?
 
 ## Tools, Technologies and Equipment
 
