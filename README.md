@@ -1,4 +1,4 @@
-# WebLED
+# webRelay
 #### Student Name:  Conor Farrell
 
 #### Original Concept:
@@ -6,7 +6,7 @@ The project is a simple home alarm and automation system. The original idea was 
 
 
 #### The Actual Project.
-Due to technical difficulties with the Wyliodrin mobile sensors app, this was changed to a web API controlling a relay. 
+Due to technical difficulties with the Wyliodrin mobile sensors app, this was changed to a web API controlling a relay. The user types in the IP address of the Galileo (displayed on an LCD screen for convenience) and is presented with a basic UI for controlling a relay.
 #### Tools, Technologies and Equipment
 
 The final system uses an Intel Galileo with the Grove shield and components. The system uses a Grove LCD and a relay to facilitate home automation. The Wyliodrin platform is used to tie the system together and also hosts a small web server on the Galileo to process requests. At the moment the LCD only displays the IP address of the board but this could be upgraded with a message facility, enabling a user to write messages and leave them visible on the screen.
